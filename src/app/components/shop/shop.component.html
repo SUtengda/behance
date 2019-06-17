@@ -1,0 +1,15 @@
+<div id="shop" class="p-4 text-center"> 
+  <hr />
+  <div class="text-uppercase h1 mt-3 mb-5">Shop By parts</div>
+  <div class="mb-5">
+    <img [src]="imgSrc" class="img-fluid" alt="shopByParts" width="970">
+  </div>
+  <div id="labels" class="d-flex mt-5">
+    <div *ngFor="let type of types; index as i" 
+      class="label text-center pb-3 flex-fill"
+      [ngClass]="{activeLabel: activeLabel==i}"
+      (click)="toggleLable(i)">
+      {{type}}
+    </div>
+  </div>
+</div>

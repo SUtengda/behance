@@ -1,0 +1,19 @@
+@import "~src/stylings/_variables";
+
+#introduction{
+    p{
+        font-size: larger
+    }
+    img:nth-child(1){
+        right: 0 ;
+        top: 0;
+        opacity: .4;
+    }
+    img:nth-child(2){
+        left: 24%;
+        bottom: 0;
+        @media screen and (max-width: $break-middle) {
+            left: 0;
+        }
+    }
+}

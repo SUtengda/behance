@@ -1,0 +1,29 @@
+<div class="position-relative">
+  <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-interval="10000">
+        <img src="assets/images/carousel/carousel1.jpg" class="d-block w-100" alt="First slide">
+      </div>
+      <div class="carousel-item" data-interval="2000">
+        <img src="assets/images/carousel/carousel2.jpg" class="d-block w-100" alt="Second slide">
+      </div>
+      <div class="carousel-item" data-interval="2000">
+        <img src="assets/images/carousel/carousel3.jpg" class="d-block w-100" alt="Second slide">
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+        <img src="assets/images/carousel/left.svg" alt="left" width="80" height="80">
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+        <img src="assets/images/carousel/right.svg" alt="left" width="80" height="80">
+      </a>
+    </div>
+  </div>
+
+  <div id="shield" class="position-absolute"></div>
+  <div id="slogan" class="position-absolute">AWESOME BICYCLE PRODUCTS</div>
+
+  <div id="showMore" class="position-absolute">
+    <app-button [content]="'More Info'" [bgColor]="'red'"></app-button>
+  </div>
+
+</div>

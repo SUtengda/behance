@@ -1,0 +1,28 @@
+nav{
+    $self: &;
+    background-color: black; 
+    padding: 0;
+    .nav-item{
+        width: 5%;
+        height: 4rem;
+        line-height: 4rem;    
+        #company{
+            color: white;
+            font-size: 2rem
+        }
+    }
+    .nav-item:not(:last-child){
+        border-right: .5px solid #808080;
+    }
+    .nav-link{
+        color:white;
+        div:nth-child(1){
+            margin-top: -1.5rem
+        }
+        div:nth-child(2){
+            margin-top: -2.5rem
+        }
+    }
+   
+}
+

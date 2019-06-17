@@ -1,0 +1,58 @@
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <a *ngIf="!show" class="navbar-brand" href="#">BICYCLE COMPANY</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto  w-100">
+        <li class="nav-item ">
+          <a class="nav-link" href="#">
+            <i class="material-icons">
+              search
+            </i>
+          </a>
+        </li>
+        <li class="nav-item d-inline-flex" [ngClass] = "{'col-lg-2' : show}">
+          <a class="nav-link" href="#">
+            <i class="material-icons">
+              menu
+            </i>
+          </a>
+          <div class="nav-link" *ngIf="show">
+            <div>Shop</div>
+            <div>Category</div>
+          </div>
+        </li>
+
+        <li class="nav-item text-center col-lg-8" *ngIf="show">
+          <span  id="company">BICYCLE COMPANY</span>
+        </li>
+  
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="material-icons">
+              person_outline
+            </i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="material-icons">
+              favorite_border
+            </i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="material-icons">
+              shopping_cart
+            </i>
+          </a>
+        </li>
+      </ul>
+  
+    </div>
+  
+  </nav>

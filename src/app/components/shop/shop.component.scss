@@ -1,0 +1,14 @@
+#shop{
+    #labels{
+        .label{
+            color: #bdbaba;
+            
+            border-bottom: 4px solid #bdbaba; 
+            cursor: pointer;
+        }
+        .label:hover ,.activeLabel{
+            color: black;
+            border-bottom: 4px solid #ea5d5d; 
+        }
+    }
+}

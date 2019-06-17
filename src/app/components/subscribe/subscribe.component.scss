@@ -1,0 +1,42 @@
+@import "~src/stylings/_variables";
+
+#subscribe{
+    background-image: url('~src/assets/images/subscribe/bg.PNG');
+    background-repeat: repeat;
+    .text{
+        font-size: larger;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    form{
+        display: flex;
+        flex-direction: row;
+        padding: 2px;
+        position: relative;
+        input{
+            
+            border: none;
+            border-radius: 2em;
+            padding: 2em;
+            box-shadow: 2px 3px 4px #c8c6c6;
+            margin-left: auto;
+            margin-right: auto;
+            width: 60%;
+            @media screen and (max-width: $break-middle) {
+                width: 90%
+            }
+        }
+        button{
+            position: absolute;
+            background: none;
+            border: none;
+            top: 22px;
+            right: 25%;
+            color: #ea4444;
+            @media screen and (max-width: $break-middle) {
+                right: 15%;
+            }
+        }
+    }
+}

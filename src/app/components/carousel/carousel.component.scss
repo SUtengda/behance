@@ -1,0 +1,37 @@
+@import "~src/stylings/_variables";
+
+#shield{
+    background-color: gray;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+}
+
+#slogan{
+    top: 25%;
+    right: 15%;
+    color: white;
+    width: 30%;
+    font-size: 4vw;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#showMore{
+    top: 75%;
+    right: 22%;
+    width: 17%;
+    height: 10%;
+    @media screen and (max-width: $break-middle) {
+        width: 20%;
+        right: 20%;
+        height: 15%;
+    }
+    @media screen and (max-width: $break-small) {
+        width: 31%;
+        right: 13%;
+        height: 20%;
+    }
+}
