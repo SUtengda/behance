@@ -1,6 +1,15 @@
 # Behance
+This project was created due to a test front.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5.
+
+This project are responsive thanks to bootstrap 4.
+
+This project is a single page application, composed of multiple components.
+
+## Dependencies
+
+Run `npm install` to install all dependencies before run the application
 
 ## Development server
 
